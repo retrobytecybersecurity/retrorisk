@@ -331,7 +331,7 @@ function SectionHeader({ icon, label }) {
 }
 
 const styles = {
-  modal: { maxWidth: '680px' },
+  modal: { maxWidth: '860px', width: '95vw' },
   header: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '24px' },
   title: { fontFamily: 'var(--font-display)', fontSize: '22px', fontWeight: '700', letterSpacing: '0.03em' },
   subtitle: { color: 'var(--text-secondary)', fontSize: '13px', marginTop: '4px' },
