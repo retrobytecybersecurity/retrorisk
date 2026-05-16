@@ -83,3 +83,17 @@ Step 9 — Verify everything is running
 bashdocker compose ps          # all 4 containers should show "Up"
 curl https://retrorisk.retrobytecybersecurity.org/health   # should return {"status":"ok"}
 ```
+Ongoing Commands
+```
+View logs
+docker compose logs -f backend
+
+# Restart after code changes
+docker compose up -d --build
+
+# Stop everything
+docker compose down
+
+# Update from GitHub
+git pull && docker compose up -d --build
+```
