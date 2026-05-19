@@ -1,5 +1,6 @@
 # retrorisk
 vCISO Style platform to manage everything vulnerability and gap related
+THIS TOOL IS STILL IN HEAVY DEVELOPMENT CURRENTLY AS OF 5/19/2026. THIS IS NOT THE MOST UP TO DATE VERSION. I PLAN ON HAVING V1.0.1 done by July 1st, 2026. This tool integrates CIS, NIST CSF, vulnerability reporting, and penetration testing reports to create a hub for clients to review their findings and manage their cybersecurity risk.
 
 Step 1 — Get the code on the server
 ``` Option A: clone from GitHub (recommended after you push)
